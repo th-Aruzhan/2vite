@@ -1,0 +1,13 @@
+/* .home{
+ 
+} */
+.image{
+   position: absolute;
+   left: 400px;
+   top: 100px;
+}
+
+.button{
+    position: relative;
+    left: 1200px;
+}

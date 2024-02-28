@@ -1,0 +1,51 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+   /* max-width: ;*/
+    margin: 0 auto;
+    background-color:#f0f3fa;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.wrapper ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding-right: 100px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: #013c58;
+    margin: 15px;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.searchInput {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 60px; 
+    font-size: 14px;
+    transition: border-color 0.3s ease; /* Добавлено анимированное изменение цвета рамки */
+}
+  
+.searchInput:focus {
+    outline: none;
+    border-color: #5A636A;
+    border-radius: 60px;
+}
+
+
+.logo{
+    font-size: 30px;
+    list-style: none;
+    padding-left: 20px;
+}

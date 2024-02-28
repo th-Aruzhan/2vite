@@ -1,0 +1,176 @@
+.catalogProducts {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.searchInput {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 60px;
+  font-size: 14px;
+  transition: border-color 0.3s ease; /* Добавлено анимированное изменение цвета рамки */
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #5a636a;
+  border-radius: 60px;
+}
+
+.section {
+  padding: 20px;
+}
+
+.catalogImagesRandom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalogProducts {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 300px;
+}
+
+.catalogMainImage {
+  margin: 30px;
+  padding-bottom: 70px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  width: 300px;
+  background-color: #fff;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  .imgProductCatalog {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+
+
+.price{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.titleProduct{
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+
+
+
+  .button {
+    background-color: #ffffff;
+    color: #000000a2;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+    transition: background-color 0.3s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    &:hover {
+      background-color: #aebbbc;
+    }
+  }
+
+  .textAddCArt{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #626262;
+  }
+
+  .price {
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10px;
+  }
+}
+
+/*   
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.btn {
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #003CC5 0%, #0B63F6 51%, #003CC5 100%);
+    font-size: 30px;
+}
+
+.btn:hover {
+     background-position: right center;
+} */
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-left: 250px;
+  padding-bottom: 150px;
+}
+.btn {
+  background: #f5f5fa;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: -10px -10px 30px 0 #fff, 10px 10px 30px 0 #1d0dca17;
+  box-sizing: border-box;
+  color: #2a1f62;
+  cursor: pointer;
+  display: flex;
+  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+    monospace;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5rem;
+  padding: 15px;
+  position: relative;
+  text-align: left;
+  transition: 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  width: max-content;
+  word-break: normal;
+  word-spacing: normal;
+}
+
+.btn:hover {
+  background: #f8f8ff;
+  box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17;
+}
+
+@media (min-width: 768px) {
+  .button-67 {
+    padding: 24px;
+  }
+}

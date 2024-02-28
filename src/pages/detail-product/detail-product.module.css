@@ -1,0 +1,103 @@
+.Basketiamge {
+  display: flex;
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-bottom: 200px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.imgProduct {
+  box-shadow: rgba(57, 62, 82, 0.4) -5px 5px, rgba(35, 50, 111, 0.3) -10px 10px,
+    rgba(46, 117, 240, 0.2) -15px 15px, rgba(16, 17, 67, 0.1) -20px 20px,
+    rgba(19, 53, 95, 0.05) -25px 25px;
+}
+
+.productTitle {
+  font-size: 36px;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 110px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(77, 77, 77);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.basketDiscription {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  padding-left: 100px;
+  font-size: 25px;
+}
+
+.buttonPrice {
+  padding-top: 70px;
+  font-size: 22px;
+  /* font-weight: bold; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.productPrice {
+  order: 1;
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 25px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(94, 94, 94);
+  padding-bottom: 30px;
+}
+
+.cart {
+  order: 3;
+  width: 150px;
+  background-color: #c2c7cd;
+  border: 1px solid #f8f9fa;
+  border-radius: 6px;
+  color: #3c4043;
+  cursor: pointer;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  height: 36px;
+  line-height: 27px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+}
+
+.cart :hover {
+  border-color: #9c9da0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
+  color: #202124;
+}
+
+.cart:focus {
+  border-color: #8490a2;
+  outline: none;
+}
+
+.productDescriptionn {
+  order: 4;
+  padding-top: 20px;
+  /* font-weight: bold; */
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.productDescription {
+  margin: 0;
+  order: 5;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f5f5f;
+}
+
+

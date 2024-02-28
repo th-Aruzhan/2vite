@@ -1,0 +1,25 @@
+.text{
+    background-color:#ffffff;
+    text-align: center;
+    margin: 0 auto;  
+    font-size: 30px;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: end;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.textOurContacts{
+    display: flex;
+    font-size: 40px;
+    margin: 0 auto;
+    font-family: "Rubik", sans-serif;
+    justify-content: end
+}
+.footerText{
+    font-size: 470px;
+    margin: 0 auto;
+    font-family: "Rubik", sans-serif;
+}

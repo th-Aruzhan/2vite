@@ -1,0 +1,38 @@
+.section {
+  display: flex;
+  flex-direction: row;
+  padding: 24px;
+  background-color: rgb(255, 255, 255);
+  padding-top: 50px;
+}
+/* 
+.category{
+
+} */
+.catalogMain{
+  list-style: none;
+  cursor: pointer;
+
+}
+.categoryName{
+  font-size: 28px;
+  font-family: Arial;
+  
+}
+
+.image{
+  width: 790px;
+  position: absolute;
+  top: 15%;
+  left: 28%;
+}
+
+.image {
+  box-shadow: 0 5px 15px 0 rgb(213, 229, 255);
+  transition: 0.5s;
+}
+
+.image:hover {
+  transform: translate(0,-3px);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
